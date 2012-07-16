@@ -1,0 +1,333 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A5DBD6C15924F31005FE29D /* file.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0A5DBD6B15924F31005FE29D /* file.txt */; };
+		0A89216F15B49B2B0028283C /* python.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0A89216E15B49B2B0028283C /* python.txt */; };
+		0AD96ACE15A465E0007B0766 /* QuestionChecker.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AD96ACD15A465E0007B0766 /* QuestionChecker.m */; };
+		D2386C711466BC7C0022EBD6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2386C701466BC7C0022EBD6 /* UIKit.framework */; };
+		D2386C731466BC7C0022EBD6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2386C721466BC7C0022EBD6 /* Foundation.framework */; };
+		D2386C751466BC7C0022EBD6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2386C741466BC7C0022EBD6 /* CoreGraphics.framework */; };
+		D2386C7B1466BC7C0022EBD6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D2386C791466BC7C0022EBD6 /* InfoPlist.strings */; };
+		D2386C7D1466BC7C0022EBD6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D2386C7C1466BC7C0022EBD6 /* main.m */; };
+		D2386C811466BC7C0022EBD6 /* SSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D2386C801466BC7C0022EBD6 /* SSAppDelegate.m */; };
+		D2386C841466BC7C0022EBD6 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2386C821466BC7C0022EBD6 /* MainStoryboard.storyboard */; };
+		D2386C871466BC7C0022EBD6 /* SSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2386C861466BC7C0022EBD6 /* SSViewController.m */; };
+		D2386C911466BCBA0022EBD6 /* ChoicesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2386C8E1466BCBA0022EBD6 /* ChoicesTableViewController.m */; };
+		D2386C921466BCBA0022EBD6 /* SelectedChoicesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2386C901466BCBA0022EBD6 /* SelectedChoicesTableViewController.m */; };
+		D2386C981466BCE10022EBD6 /* DragAndDropTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2386C951466BCE10022EBD6 /* DragAndDropTableViewController.m */; };
+		D2386C9A1466BDD20022EBD6 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2386C991466BDD20022EBD6 /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0A5DBD6B15924F31005FE29D /* file.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = file.txt; sourceTree = "<group>"; };
+		0A89216E15B49B2B0028283C /* python.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = python.txt; sourceTree = "<group>"; };
+		0AD96ACC15A465E0007B0766 /* QuestionChecker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestionChecker.h; sourceTree = "<group>"; };
+		0AD96ACD15A465E0007B0766 /* QuestionChecker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestionChecker.m; sourceTree = "<group>"; };
+		D2386C6C1466BC7C0022EBD6 /* DragAndDropTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DragAndDropTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2386C701466BC7C0022EBD6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D2386C721466BC7C0022EBD6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D2386C741466BC7C0022EBD6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D2386C781466BC7C0022EBD6 /* DragAndDropTutorial-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DragAndDropTutorial-Info.plist"; sourceTree = "<group>"; };
+		D2386C7A1466BC7C0022EBD6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D2386C7C1466BC7C0022EBD6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D2386C7E1466BC7C0022EBD6 /* DragAndDropTutorial-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DragAndDropTutorial-Prefix.pch"; sourceTree = "<group>"; };
+		D2386C7F1466BC7C0022EBD6 /* SSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSAppDelegate.h; sourceTree = "<group>"; };
+		D2386C801466BC7C0022EBD6 /* SSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSAppDelegate.m; sourceTree = "<group>"; };
+		D2386C831466BC7C0022EBD6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		D2386C851466BC7C0022EBD6 /* SSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSViewController.h; sourceTree = "<group>"; };
+		D2386C861466BC7C0022EBD6 /* SSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSViewController.m; sourceTree = "<group>"; };
+		D2386C8D1466BCBA0022EBD6 /* ChoicesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChoicesTableViewController.h; sourceTree = "<group>"; };
+		D2386C8E1466BCBA0022EBD6 /* ChoicesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChoicesTableViewController.m; sourceTree = "<group>"; };
+		D2386C8F1466BCBA0022EBD6 /* SelectedChoicesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectedChoicesTableViewController.h; sourceTree = "<group>"; };
+		D2386C901466BCBA0022EBD6 /* SelectedChoicesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectedChoicesTableViewController.m; sourceTree = "<group>"; };
+		D2386C941466BCE10022EBD6 /* DragAndDropTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DragAndDropTableViewController.h; sourceTree = "<group>"; };
+		D2386C951466BCE10022EBD6 /* DragAndDropTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DragAndDropTableViewController.m; sourceTree = "<group>"; };
+		D2386C961466BCE10022EBD6 /* DropableTableViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropableTableViewDelegate.h; sourceTree = "<group>"; };
+		D2386C971466BCE10022EBD6 /* DraggableTableViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DraggableTableViewDelegate.h; sourceTree = "<group>"; };
+		D2386C991466BDD20022EBD6 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2386C691466BC7C0022EBD6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2386C9A1466BDD20022EBD6 /* QuartzCore.framework in Frameworks */,
+				D2386C711466BC7C0022EBD6 /* UIKit.framework in Frameworks */,
+				D2386C731466BC7C0022EBD6 /* Foundation.framework in Frameworks */,
+				D2386C751466BC7C0022EBD6 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D2386C611466BC7C0022EBD6 = {
+			isa = PBXGroup;
+			children = (
+				0A89216E15B49B2B0028283C /* python.txt */,
+				0A5DBD6B15924F31005FE29D /* file.txt */,
+				D2386C991466BDD20022EBD6 /* QuartzCore.framework */,
+				D2386C761466BC7C0022EBD6 /* DragAndDropTutorial */,
+				D2386C6F1466BC7C0022EBD6 /* Frameworks */,
+				D2386C6D1466BC7C0022EBD6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D2386C6D1466BC7C0022EBD6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2386C6C1466BC7C0022EBD6 /* DragAndDropTutorial.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D2386C6F1466BC7C0022EBD6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D2386C701466BC7C0022EBD6 /* UIKit.framework */,
+				D2386C721466BC7C0022EBD6 /* Foundation.framework */,
+				D2386C741466BC7C0022EBD6 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D2386C761466BC7C0022EBD6 /* DragAndDropTutorial */ = {
+			isa = PBXGroup;
+			children = (
+				D2386C931466BCC80022EBD6 /* DragAndDrop */,
+				D2386C7F1466BC7C0022EBD6 /* SSAppDelegate.h */,
+				D2386C801466BC7C0022EBD6 /* SSAppDelegate.m */,
+				D2386C821466BC7C0022EBD6 /* MainStoryboard.storyboard */,
+				D2386C851466BC7C0022EBD6 /* SSViewController.h */,
+				D2386C861466BC7C0022EBD6 /* SSViewController.m */,
+				D2386C771466BC7C0022EBD6 /* Supporting Files */,
+				D2386C8D1466BCBA0022EBD6 /* ChoicesTableViewController.h */,
+				D2386C8E1466BCBA0022EBD6 /* ChoicesTableViewController.m */,
+				D2386C8F1466BCBA0022EBD6 /* SelectedChoicesTableViewController.h */,
+				D2386C901466BCBA0022EBD6 /* SelectedChoicesTableViewController.m */,
+				0AD96ACC15A465E0007B0766 /* QuestionChecker.h */,
+				0AD96ACD15A465E0007B0766 /* QuestionChecker.m */,
+			);
+			path = DragAndDropTutorial;
+			sourceTree = "<group>";
+		};
+		D2386C771466BC7C0022EBD6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D2386C781466BC7C0022EBD6 /* DragAndDropTutorial-Info.plist */,
+				D2386C791466BC7C0022EBD6 /* InfoPlist.strings */,
+				D2386C7C1466BC7C0022EBD6 /* main.m */,
+				D2386C7E1466BC7C0022EBD6 /* DragAndDropTutorial-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D2386C931466BCC80022EBD6 /* DragAndDrop */ = {
+			isa = PBXGroup;
+			children = (
+				D2386C941466BCE10022EBD6 /* DragAndDropTableViewController.h */,
+				D2386C951466BCE10022EBD6 /* DragAndDropTableViewController.m */,
+				D2386C961466BCE10022EBD6 /* DropableTableViewDelegate.h */,
+				D2386C971466BCE10022EBD6 /* DraggableTableViewDelegate.h */,
+			);
+			name = DragAndDrop;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D2386C6B1466BC7C0022EBD6 /* DragAndDropTutorial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2386C8A1466BC7C0022EBD6 /* Build configuration list for PBXNativeTarget "DragAndDropTutorial" */;
+			buildPhases = (
+				D2386C681466BC7C0022EBD6 /* Sources */,
+				D2386C691466BC7C0022EBD6 /* Frameworks */,
+				D2386C6A1466BC7C0022EBD6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DragAndDropTutorial;
+			productName = DragAndDropTutorial;
+			productReference = D2386C6C1466BC7C0022EBD6 /* DragAndDropTutorial.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D2386C631466BC7C0022EBD6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Scott Sherwood";
+			};
+			buildConfigurationList = D2386C661466BC7C0022EBD6 /* Build configuration list for PBXProject "DragAndDropTutorial" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D2386C611466BC7C0022EBD6;
+			productRefGroup = D2386C6D1466BC7C0022EBD6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2386C6B1466BC7C0022EBD6 /* DragAndDropTutorial */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D2386C6A1466BC7C0022EBD6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2386C7B1466BC7C0022EBD6 /* InfoPlist.strings in Resources */,
+				D2386C841466BC7C0022EBD6 /* MainStoryboard.storyboard in Resources */,
+				0A5DBD6C15924F31005FE29D /* file.txt in Resources */,
+				0A89216F15B49B2B0028283C /* python.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2386C681466BC7C0022EBD6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2386C7D1466BC7C0022EBD6 /* main.m in Sources */,
+				D2386C811466BC7C0022EBD6 /* SSAppDelegate.m in Sources */,
+				D2386C871466BC7C0022EBD6 /* SSViewController.m in Sources */,
+				D2386C911466BCBA0022EBD6 /* ChoicesTableViewController.m in Sources */,
+				D2386C921466BCBA0022EBD6 /* SelectedChoicesTableViewController.m in Sources */,
+				D2386C981466BCE10022EBD6 /* DragAndDropTableViewController.m in Sources */,
+				0AD96ACE15A465E0007B0766 /* QuestionChecker.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D2386C791466BC7C0022EBD6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2386C7A1466BC7C0022EBD6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D2386C821466BC7C0022EBD6 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2386C831466BC7C0022EBD6 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D2386C881466BC7C0022EBD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		D2386C891466BC7C0022EBD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D2386C8B1466BC7C0022EBD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DragAndDropTutorial/DragAndDropTutorial-Prefix.pch";
+				INFOPLIST_FILE = "DragAndDropTutorial/DragAndDropTutorial-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D2386C8C1466BC7C0022EBD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DragAndDropTutorial/DragAndDropTutorial-Prefix.pch";
+				INFOPLIST_FILE = "DragAndDropTutorial/DragAndDropTutorial-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D2386C661466BC7C0022EBD6 /* Build configuration list for PBXProject "DragAndDropTutorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2386C881466BC7C0022EBD6 /* Debug */,
+				D2386C891466BC7C0022EBD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2386C8A1466BC7C0022EBD6 /* Build configuration list for PBXNativeTarget "DragAndDropTutorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2386C8B1466BC7C0022EBD6 /* Debug */,
+				D2386C8C1466BC7C0022EBD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D2386C631466BC7C0022EBD6 /* Project object */;
+}
